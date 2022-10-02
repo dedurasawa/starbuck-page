@@ -1,0 +1,297 @@
+body {
+	background-color: #F6FFF7;
+}
+
+
+/*inicio header css*/
+
+.div_verde{
+	background-color: #006600;
+	height: 10px;
+}
+
+.img_logo{
+	margin-top: 5px;
+	max-width: 4.5em;
+	max-height: 4.5em;
+	border-radius: 2.5em;
+}
+
+.h3_logo{
+	display: inline-block;
+	position: absolute;
+	left: 61px;
+	top: 73px;
+	font-size: 13px;
+	font-weight: 50;
+	color: #006600 ;
+
+}
+
+/*barra de navegacion*/
+
+.header_nav ul li{
+	display: inline-block;
+}
+
+.header_nav{
+	position: absolute;
+	left: 130px;
+	top: 55px;
+}
+
+.nav_ul li a{
+	display: flex;
+	padding: 11px;
+	font-size: .8em;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 3px;
+	transition: all .5s;
+	text-decoration: none;
+	color: #000000;
+}
+.nav_ul li a:hover{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.nav_buscador{
+	position: absolute;
+	right: 3em;
+	top: 3em;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+}
+
+.nav_buscador a{
+	text-decoration: none;
+	color: #006600;
+}
+.nav_buscador a:hover{
+	color: #009900;
+}
+
+
+/*inicio de seccion de banner de presentacion*/
+
+.section_banner{
+	background-image: url(hero-bg.1a0ac42.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+	position: relative;
+}
+
+.banner_star{
+	position: absolute;
+	top: 90px;
+}
+
+.img_star{
+	max-width: 40%;
+	max-height: 40%;
+}
+
+/*presentacion e imagen "starbuks rewards"*/
+
+.span_present{
+	position: absolute;
+	top: 6em;
+	left: 15em;
+}
+
+
+.h3_present{
+	margin-bottom: .5em;
+	color: #ffffff;
+	font-family: Oswald,sans-serif;
+	font-weight: 300;
+	font-size: 29px;
+	letter-spacing: 4px;
+}
+
+.span_disp{
+	position: absolute;
+	top: 14em;
+	left: 16em;
+
+
+}
+/*presentacion de app´s*/
+.img_storeap{
+	display: inline-block;
+	height: 12%;
+	width: 12%;
+	margin-right: 1.5em;
+}
+
+.img_storean{
+	height: 12%;
+	width: 12%;
+}
+
+.span_disp--h3{
+	margin-bottom: 5px;
+	
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	letter-spacing: 3px;
+
+}
+
+/*seccion de registro rapido en banner*/
+
+.form_span{
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: absolute;
+padding-left: 3em;
+padding-right: 3em;
+padding-top: 3em;
+padding-bottom: 4em;
+background-color: #000000;
+top: 3.5em;
+right: 0;
+}
+
+.form_text{
+	padding-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #ffffff;
+}
+.form_more{
+	text-decoration: none;
+	margin-top: 1em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #D2A200;
+}
+
+.form_button{
+	padding: 1em 2em;
+	margin-top: 2em;
+	font-family: 'Lato', sans-serif;
+	font-size: .8em;
+	background-color: #D2A200;
+	color: #ffffff;
+	font-weight: 800;
+	transition: all .5s;
+}
+
+.form_button:hover{
+	background-color: #037A5A;
+}
+
+
+/*inicio de area de registro*/
+
+.register {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2em;
+	background-color: #eeeeee;
+	font-family: Lato, sans-serif;
+}
+.reg_logo{
+	margin: 1em;
+}
+
+.reg_form{
+	display: grid;
+	padding: 0 5em 0 0;
+}
+
+.reg_form > h3, .reg_form > input, .reg_form > a{
+	margin: .7em;
+}
+
+.reg_header{
+	font-family: 'Lato', sans-serif;
+}
+
+.reg_input {
+	padding: .5em 8em 0 0;
+	text-align: initial;
+	background-color: #eeeeee;
+	border-style: none;
+	border-bottom: dotted;
+	border-width: 1px;
+}
+.reg_input:focus{
+	outline: none;
+}
+
+.reg_recu {
+	text-decoration: none;
+	color: #009900;
+}
+
+.reg_button{
+	padding: .8em;
+	font-family: 'Lato', sans-serif;
+	background-color: #037A5A;
+	color: #ffffff;
+	border-style: none;
+	transition: all .2s;
+}
+.reg_button:hover{
+	background-color: #D2A200;
+}
+
+
+/*instrucciones de registro*/
+
+.reg_instructions{
+	height: 230px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Lato, sans-serif;
+}
+
+.inst_title{
+	font-family: Lato, sans-serif;
+}
+
+.inst_title-01{
+	font-style: italic;
+
+}
+
+.inst_title-02{
+/*	padding: 10px;*/
+	line-height: 30px;
+	font-weight: 300;
+	font-size: 1.1em;
+}
+
+.inst_account{
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-bottom: 6px;
+	text-decoration: none;
+	border-bottom: 1px solid #037A5A;
+	color: #037A5A;
+	transition: all .5s;
+	font-weight: 300;
+}
+
+.inst_account:hover{
+	font-size: 1.1em;
+}
+
+.inst_verif{
+	display: block;
+	text-decoration: none;
+	color: #003300;
+}
+
+.inst_verif:hover{
+	text-decoration: underline;
+}
