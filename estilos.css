@@ -195,7 +195,6 @@ right: 0;
 	align-items: center;
 	justify-content: space-between;
 	padding: 2em;
-	background-color: #eeeeee;
 	font-family: Lato, sans-serif;
 }
 .reg_logo{
@@ -218,7 +217,7 @@ right: 0;
 .reg_input {
 	padding: .5em 8em 0 0;
 	text-align: initial;
-	background-color: #eeeeee;
+	background-color: #F6FFF7;
 	border-style: none;
 	border-bottom: dotted;
 	border-width: 1px;
@@ -295,3 +294,257 @@ right: 0;
 .inst_verif:hover{
 	text-decoration: underline;
 }
+
+/*inicio de los pasos para registro*/
+
+.steps{
+	background-color: #DBF3E8;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.steps_start{
+	text-align: center;
+	font-family: Oswald, sans-serif;
+}
+
+.start_title{
+	font-size: 2em;
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.start_guide{
+	padding-bottom: 3px;
+	font-size: 1.5em;
+	font-weight: 300;
+	border-bottom: 1px solid #D2A200;
+}
+
+.description_steps{
+	display: flex;
+	margin-top: 50px;
+}
+
+.description_steps div{
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	font-family: Lato, sans-serif;
+	margin-top: 20px;
+}
+.step_register{
+	display: block;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 5px;
+	border: 1px solid #D2A200;;
+	text-decoration: none;
+	font-weight: 800;
+	color: #000000;
+	
+}
+
+.description_steps div img{
+	margin: 15px 0;
+}
+
+.description_steps div h3{
+	width: 100%;
+	font-size: 1.3em;
+}
+
+.description_steps div small{
+	color: #888888;
+}
+
+/*comienzo de presentacion de niveles de membresia*/
+
+.levels{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #DBF3E8
+}
+/*separate es la flecha por encima de los niveles de membresia*/
+.separate{
+	text-align: center;
+}
+
+.arrow{
+	color: #D2A200;
+	font-size: 2.5em;
+	margin: 30px 0;
+}
+
+.levels_separation{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 50px;
+	justify-content: space-around;
+	gap: 20px;
+	padding: 30px 0;
+	font-family: Oswald,sans-serif;
+}
+
+
+/*atributos que tienen en comun los tres niveles de membresia*/
+
+.levels_separation-1, .levels_separation-2, .levels_separation-3{
+	width: 30%;
+	text-align: center;
+}
+
+.level_1, .level_2, .level_3{
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.line_1, .line_2, .line_3{
+	display: inline-block;
+    width: 48px;
+    height: 5px;
+    padding: 0 13px;
+    box-sizing: content-box;
+}
+
+.level_text-1, .level_text-2, .level_text-3{
+	padding: 10px 20px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.bonus_1, .bonus_2, .bonus_3{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 410px;
+}
+
+.bonus_contend-1, .bonus_contend-2, .bonus_contend-3{
+	text-align: initial;
+	width: 100%;
+	color: #ffffff;
+	border-style: none;
+}
+
+.bonus_contend-1 legend, .bonus_contend-2 legend, .bonus_contend-3 legend{
+	display: inline-block;
+	width: 70%;
+	margin: 25px 0 25px 60px;
+	letter-spacing: 1px;
+	font-size: 1em;
+	font-weight: 100;
+	font-family: Oswald, sans-serif;
+}
+
+
+/*fin de los atributos en comun*/
+
+
+/*atributos unicos del primer nivel de membresia*/
+.bonus_1{
+	background-image: url(bg_dashboard_welcome.jpg);
+}
+
+.line_1 {
+	border-bottom: 2px solid black;
+}
+
+.level_text-1{
+	padding-bottom: 28px;
+}
+
+
+/*atributos unicos del segundo nivel de membresia*/
+.level_2{
+	color: #037A5A;
+}
+
+.line_2{
+	border-bottom: 2px solid #037A5A;
+}
+
+.bonus_2{
+	background-image: url(bg_dashboard_green.jpg);
+}
+
+
+/*atributos unicos del tercer nivel de membresia*/
+.level_3{
+	color: #D2A200;
+}
+
+.line_3{
+	border-bottom: 2px solid #D2A200;
+}
+
+.bonus_3{
+	background-image: url(bg_dashboard_gold.jpg);
+}
+
+/*fin niveles de membresia, inicio del footer*/
+
+/*menu footer (estilos en comun)*/
+.menu_1, .menu_2, .menu_3{
+	font-family: Lato, sans-serif;
+	display: inline-block;
+	margin: 50px 15px 0 25px;
+}
+
+.list_1, .list_2, .list_3{
+	list-style: none;
+}
+
+.list_1 li, .list_2 li, .list_3 li{
+	margin: 10px 10px 25px 10px;
+}
+
+.list_1 li:first-child, .list_2 li:first-child, .list_3 li:first-child{
+	font-size: 1.3em;
+}
+
+.list_1 a, .list_2 a, .list_3 a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.list_1 a:hover, .list_2 a:hover, .list_3 a:hover{
+	color: #666666;
+}
+
+/*estilos individuales del menu del footer*/
+
+.menu_3{
+	position: absolute;
+}
+
+.list_3 li:first-child{
+	width: 250px;
+}
+
+/*leyendas del footer*/
+
+.aside{
+	display: inline-block;
+    transform: rotate(-90deg);
+    position: relative;
+    left: 625px;
+    bottom: 100px;
+    font-size: 2em;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+}
+
+.corporative{
+	padding-top: 25px;
+	text-align: center;
+	font-family: Oswald, sans-serif;
+	font-weight: 300;
+
+}
+
+
+
+
