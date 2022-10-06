@@ -1,5 +1,5 @@
 body {
-	background-color: #F6FFF7;
+	background-color: #dddddd;
 }
 
 
@@ -217,7 +217,7 @@ right: 0;
 .reg_input {
 	padding: .5em 8em 0 0;
 	text-align: initial;
-	background-color: #F6FFF7;
+	background-color: #dddddd;
 	border-style: none;
 	border-bottom: dotted;
 	border-width: 1px;
@@ -338,12 +338,17 @@ right: 0;
 	display: block;
 	margin-left: 50px;
 	margin-right: 50px;
-	padding: 5px;
+	padding: 10px;
 	border: 1px solid #D2A200;;
 	text-decoration: none;
 	font-weight: 800;
-	color: #000000;
-	
+	color: #000000;	
+	transition: all .5s;
+}
+
+.step_register:hover{
+	background-color: #037A5A;
+	color: #cccccc;
 }
 
 .description_steps div img{
