@@ -1,0 +1,134 @@
+@media screen and (max-width: 380px) {
+	.div_verde {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+	}
+
+	.header_nav {
+		position: relative;
+		background-color: #121212;
+		left: 0;
+		top: 0;
+	}
+
+	.nav_a {
+		color: #ffffff;
+	}
+
+	.nav_ul {
+		color: #ffffff;
+	}
+
+	.nav_buscador {
+		position: absolute;
+    	right: 0.5em;
+    	top: 0.5em;
+    	font-size: 1.2em;
+    	letter-spacing: 3px;
+	}
+
+/*seccion banner*/
+
+	.section_banner {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.general_banner {
+		position: inherit;
+		top: 0;
+		left: 0;
+	}
+
+	.img_star {
+		display: none;
+	}
+
+	.general_store {
+		width: 30%
+	}
+
+/*seccion de registro*/
+
+	.register {
+		width: 100%;
+		flex-direction: column;
+		padding: 2rem 0;
+	}
+	.img_reg {
+		width: 80%
+	}
+
+	.reg_logo {
+		width: 100%;
+		margin: 1rem 0;
+		text-align: center;
+	}
+
+	.reg_form {
+		width: 100%;
+		padding: 0;
+	}
+
+/*seccion de steps*/
+
+	.steps {
+		width: 100%;
+		padding: 0;
+	}
+
+	.description_steps {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.step_general {
+		width: 100%;
+	}
+
+	.step_1 {
+		width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+
+	/*seccion de niveles*/
+
+	.levels {
+		width: 100%;
+	}
+
+	.levels_separation {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+	}
+
+	.general_separation {
+		width: 100%;
+	}
+
+	/*seccion de rodapie*/
+
+	.rodapie {
+		width: 100%;
+    	display: flex;
+    	text-align: center;
+    	flex-direction: column;
+	}
+
+	.menu_3 {
+		position: relative;
+	}
+
+	.aside {
+		display: inline-block;
+		transform: none;
+		position: inherit;
+	}
+}

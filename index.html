@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="Starbucks-Logo.jpg">
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -26,12 +27,12 @@
 
 		<nav class="header_nav">
 			<ul class="nav_ul">
-				<li><a href="">CAFÉ</a></li>
-				<li><a href="">PRODUCTOS</a></li>
-				<li><a href="">RESPONSABILIDAD SOCIAL</a></li>
-				<li><a href="">STARBUCKS</a></li>
-				<li><a href="">BLOG</a></li>
-				<li><a href="">CARD</a></li>
+				<li class="nav_li"><a href="" class="nav_a">CAFÉ</a></li>
+				<li class="nav_li"><a href="" class="nav_a">PRODUCTOS</a></li>
+				<li class="nav_li"><a href="" class="nav_a">RESPONSABILIDAD SOCIAL</a></li>
+				<li class="nav_li"><a href="" class="nav_a">STARBUCKS</a></li>
+				<li class="nav_li"><a href="" class="nav_a">BLOG</a></li>
+				<li class="nav_li"><a href="" class="nav_a">CARD</a></li>
 			</ul>
 		</nav>
 
@@ -45,22 +46,22 @@
 
 	<section class="section_banner">
 
-		<span class="banner_star"> <!-- logo estrella -->
+		<span class="banner_star general_banner"> <!-- logo estrella -->
 			<img src="star.png" class="img_star"> 
 		</span>
 
-		<span class="span_present"> <!-- banner de presentacion -->
+		<span class="span_present general_banner"> <!-- banner de presentacion -->
 			<h3 class="h3_present">TODO LO QUE AMÁS DE</h3>
 			<img src="logoRewardsAr.png" class="img_present">
 		</span>
 
-		<span class="span_disp"> <!-- banner de aplicaciones -->
+		<span class="span_disp general_banner"> <!-- banner de aplicaciones -->
 			<H3 class="span_disp--h3">DESDE TU CELULAR</H3>
-			<a href=""><img src="app-store.png" class="img_storeap"></a>
-			<a href=""><img src="play-store.png" class="img_storean"></a>
+			<a href=""><img src="app-store.png" class="img_storeap general_store"></a>
+			<a href=""><img src="play-store.png" class="img_storean general_store"></a>
 		</span>
 
-		<span class="form_span"> <!-- seccion de registro -->
+		<span class="form_span general_banner"> <!-- seccion de registro -->
 			<h3 class="form_text">
 				¿Todavía no sos parte de<br> Starbucks Rewards? <br>
 				¡Registrate y accedé a un <br> beneficio especial!
@@ -76,7 +77,7 @@
 	<section class="register"> 
 
 		<span class="reg_logo"> <!--imagen del registro-->
-			<img src="logo-card-ar.png">
+			<img class="img_reg" src="logo-card-ar.png">
 		</span>
  
 		<form class="reg_form"> <!-- formulario de registro -->
@@ -123,28 +124,28 @@
 		</span>
 
 		<span class="description_steps">
-			<div class="step_1">
+			<div class="step_1 step_general">
 				<img src="step1.png">
 				<h3>01 <small>/04</small></h3>
 				<img src="diagonales.png">
 				<a href="" class="step_register">REGISTRATE</a>
 			</div>
 
-			<div class="step_2">
+			<div class="step_2 step_general">
 				<img src="step2.png">
 				<h3>02 <small>/04</small></h3>
 				<img src="diagonales.png">
 				<h4>DIRIGITE A TU TIENDA MÁS CERCANA Y ACTIVÁ TU STARBUCKS CARD.</h4>
 			</div>
 
-			<div class="step_3">
+			<div class="step_3 step_general">
 				<img src="step3.png">
 				<h3>03 <small>/04</small></h3>
 				<img src="diagonales.png">
 				<h4>PAGÁ CON TU STARBUCKS CARD Y ACUMULÁ UNA STAR POR CADA $30 CONSUMIDOS.</h4>
 			</div>
 
-			<div class="step_4">
+			<div class="step_4 step_general">
 				<img src="step4.png">
 				<h3>04 <small>/04</small></h3>
 				<img src="diagonales.png">
@@ -165,13 +166,13 @@
 
 		<span class="levels_separation">
 
-			<div class="levels_separation-1">
+			<div class="levels_separation-1 general_separation">
 
 				<h3 class="level_1">NIVEL WELCOME</h3>
 				<div class="line_1">      <!-- caja de separacion--></div> 
 				<h4 class="level_text-1">Unite a Starbucks Rewards™ y disfrutá de:</h4> 
 				 <!-- la imagen de fondo esta agregada en css (background-image) -->
-				 <div class="bonus_1">
+				 <div class="bonus_1 bonus_general">
 					<fieldset  class="bonus_contend-1">
 						<legend></legend> <!-- elemento legend agregado para ordenar dentro del fieldset-->
 						<legend>UNA BEBIDA DE CORTESÍA EN EL MES DE TU CUMPLEAÑOS</legend>
@@ -180,13 +181,13 @@
 
 			</div>
 
-			<div class="levels_separation-2">
+			<div class="levels_separation-2 general_separation">
 
 				<h3 class="level_2">NIVEL GREEN</h3>
 				<div class="line_2">       <!-- caja de separacion--></div> 
 				<h4 class="level_text-2">Acumulá 50 Stars, alcanzá este nivel y sumá nuevos beneficios:</h4> 
 				 <!-- la imagen de fondo esta agregada en css (background-image) -->
-				 <div class="bonus_2">
+				 <div class="bonus_2 bonus_general">
 					<fieldset  class="bonus_contend-2">
 						<legend></legend> <!-- elemento legend agregado para ordenar dentro del fieldset-->
 					 	<legend>UNA BEBIDA DE CORTESÍA EN EL MES DE TU CUMPLEAÑOS</legend>
@@ -198,13 +199,13 @@
 
 			</div>
 
-			<div class="levels_separation-3">
+			<div class="levels_separation-3 general_separation">
 
 				<h3 class="level_3">NIVEL GOLD</h3>
 				<div class="line_3">      <!-- caja de separacion--></div> 
 				<h4 class="level_text-3">Acumulá 300 Stars, y viví la mejor experiencia Starbucks Rewards™:</h4> 
 				 <!-- la imagen de fondo esta agregada en css (background-image) -->
-				 <div class="bonus_3">
+				 <div class="bonus_3 bonus_general">
 					<fieldset  class="bonus_contend-3">
 						<legend></legend> <!-- elemento legend agregado para ordenar dentro del fieldset-->
 						<legend>UNA BEBIDA DE CORTESÍA EN EL MES DE TU CUMPLEAÑOS</legend>

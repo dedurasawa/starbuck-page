@@ -40,7 +40,7 @@ body {
 	top: 55px;
 }
 
-.nav_ul li a{
+.nav_a{
 	display: flex;
 	padding: 11px;
 	font-size: .8em;
@@ -50,7 +50,7 @@ body {
 	text-decoration: none;
 	color: #000000;
 }
-.nav_ul li a:hover{
+.nav_a:hover{
 	background-color: #000000;
 	color: #ffffff;
 }
@@ -327,7 +327,7 @@ right: 0;
 	margin-top: 50px;
 }
 
-.description_steps div{
+.step_general{
 	width: 25%;
 	height: 300px;
 	text-align: center;
@@ -395,7 +395,7 @@ right: 0;
 
 /*atributos que tienen en comun los tres niveles de membresia*/
 
-.levels_separation-1, .levels_separation-2, .levels_separation-3{
+.general_separation{
 	width: 30%;
 	text-align: center;
 }
@@ -419,7 +419,7 @@ right: 0;
 	font-style: italic;
 }
 
-.bonus_1, .bonus_2, .bonus_3{
+.bonus_general{
 	display: flex;
 	width: 100%;
 	flex-direction: column;
